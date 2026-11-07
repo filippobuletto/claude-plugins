@@ -21,6 +21,7 @@ A Claude Code plugin marketplace with every plugin by Filippo Buletto. Add it on
 | :- | :- | :- |
 | [kubectl-guard](https://github.com/filippobuletto/kubectl-Guard-for-Claude-Code) | Allowlist `PreToolUse` hook that lets Claude inspect Kubernetes clusters with `kubectl` and `helm` without changing them, reading secrets or switching identity | `/plugin install kubectl-guard@filippobuletto` |
 | [toon-mcp-squeeze](https://github.com/filippobuletto/toon-mcp-squeeze) | Re-encodes JSON returned by MCP tools as [TOON](https://toonformat.dev/) before Claude reads it, cutting tokens on large tabular results | `/plugin install toon-mcp-squeeze@filippobuletto` |
+| [java-toolkit](https://github.com/filippobuletto/java-toolkit) | Skills that upgrade and modernize Java projects from JDK 8 to 27: a router reads the Maven or Gradle build and the code, plans one LTS hop at a time for your approval, then fixes build config and breaking changes and verifies each step | `/plugin install java-toolkit@filippobuletto` |
 
 Each plugin lives in its own repository, with its own README, options and releases. This repository holds only the catalog in [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json).
 

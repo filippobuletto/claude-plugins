@@ -23,6 +23,16 @@
       "license": "MIT",
       "category": "productivity",
       "keywords": ["toon", "mcp", "tokens", "hooks", "json"]
+    },
+    {
+      "name": "java-toolkit",
+      "source": { "source": "github", "repo": "filippobuletto/java-toolkit" },
+      "description": "Java skills for Claude Code. Upgrade and modernize Java projects from JDK 8 to 27: a router reads the build and code, then routes to build-tool, breaking-change and feature-adoption skills one LTS hop at a time",
+      "author": { "name": "Filippo Buletto", "url": "https://github.com/filippobuletto" },
+      "homepage": "https://github.com/filippobuletto/java-toolkit",
+      "license": "MIT",
+      "category": "development",
+      "keywords": ["java", "jdk", "upgrade", "migration", "modernization", "maven", "gradle", "skills"]
     }
   ]
 }
