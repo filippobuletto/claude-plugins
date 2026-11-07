@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "filippobuletto",
+  "description": "Claude Code plugins by Filippo Buletto",
+  "owner": { "name": "Filippo Buletto", "url": "https://github.com/filippobuletto" },
+  "plugins": [
+    {
+      "name": "kubectl-guard",
+      "source": { "source": "github", "repo": "filippobuletto/kubectl-Guard-for-Claude-Code" },
+      "description": "Allowlist PreToolUse hook that lets Claude inspect Kubernetes clusters with kubectl and helm without changing them, reading secrets or switching identity",
+      "author": { "name": "Filippo Buletto", "url": "https://github.com/filippobuletto" },
+      "homepage": "https://github.com/filippobuletto/kubectl-Guard-for-Claude-Code",
+      "license": "MIT",
+      "category": "security",
+      "keywords": ["kubectl", "helm", "kubernetes", "hooks", "security", "guard"]
+    },
+    {
+      "name": "toon-mcp-squeeze",
+      "source": { "source": "github", "repo": "filippobuletto/toon-mcp-squeeze" },
+      "description": "Re-encode JSON returned by MCP tools as TOON before Claude reads it, cutting tokens on large tabular results",
+      "author": { "name": "Filippo Buletto", "url": "https://github.com/filippobuletto" },
+      "homepage": "https://github.com/filippobuletto/toon-mcp-squeeze",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["toon", "mcp", "tokens", "hooks", "json"]
+    }
+  ]
+}
